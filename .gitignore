@@ -1,46 +1,19 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# Data (optional – keep sample CSVs if needed)
-data/*.csv
-!data/sample.csv  # Example: keep a sample file
-
-# Model files
-models/*.pkl
-
-# Report outputs
-reports/*.csv
-reports/*.png
-reports/*.pdf
-
-# Environment files
 .env
 .venv/
 env/
 venv/
 pip-log.txt
-
-# Python dependencies
 *.egg
 *.egg-info/
 dist/
 build/
-
-# Mac/Windows/Linux junk
 .DS_Store
 Thumbs.db
-
-# VSCode/JetBrains/PyCharm/Other IDEs
 .vscode/
 .idea/
-
-# Jupyter output cache
 *.~ipynb
-
-# CatBoost training logs
 catboost_info/
